@@ -10,9 +10,6 @@ namespace ProyectoFinal
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("");
-            Console.ReadLine();
-            Console.ReadKey();
             //comentario
         }
     }

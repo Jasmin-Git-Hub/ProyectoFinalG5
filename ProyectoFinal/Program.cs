@@ -12,6 +12,7 @@ namespace ProyectoFinal
         {
             //comentario
             Console.WriteLine("benja");
+            Console.WriteLine("Jhan");
         }
     }
 }

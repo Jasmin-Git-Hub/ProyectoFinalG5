@@ -11,7 +11,11 @@ namespace ProyectoFinal
         static void Main(string[] args)
         {
             //comentario
+<<<<<<< HEAD
             //cambio2
+=======
+            Console.WriteLine("benja");
+>>>>>>> 3a0929554d001709927935d4ea30dac58d2af969
         }
     }
 }

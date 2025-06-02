@@ -11,6 +11,7 @@ namespace ProyectoFinal
         static void Main(string[] args)
         {
             //comentario
+            Console.WriteLine("benja");
         }
     }
 }

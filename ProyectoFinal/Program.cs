@@ -10,14 +10,7 @@ namespace ProyectoFinal
     {
         static void Main(string[] args)
         {
-            //comentario
-
-            //cambio2
-
-            Console.WriteLine("benja");
-
-            Console.WriteLine("Jhan");
-            // comentario 3
+           
         }
     }
 }

@@ -39,31 +39,44 @@ namespace Clases
             NodoActividad temp = primero;
             while (temp !=  null)
             {
-                Console.WriteLine(temp.dato); 
+                Console.WriteLine("Título: " + temp.dato.titulo);
+                Console.WriteLine("Fecha de Entrega: " + temp.dato.fechaDeEntrega);
+                Console.WriteLine("Prioridad: " + temp.dato.estado);
+                Console.WriteLine("-------------------------");
                 temp = temp.sig;
 
             }
 
         }
-        public void OrdenarPrioridad(string fechaDeEntrega, int estado)
+        public void OrdenarPrioridad()
         {
-            NodoActividad nuevoNodo = new NodoActividad();
-            NodoActividad temp = primero; 
-            if(temp == null || estado < temp.dato.estado)
+            
+            if(primero == null || primero.sig == null)
             {
-                nuevoNodo.sig = temp;
-                temp = nuevoNodo;
+                return;
             }
-            else
+            NodoActividad act, sigui; 
+            int cambio;
+            do
             {
-                NodoActividad act = temp;
-                while(act.sig != null && act.sig.dato.estado <= estado)
+                cambio = 0;
+                act = primero; 
+                sigui = primero.sig;
+                while(sigui != null)
                 {
-                    act = act.sig;
+                    if (act.dato.estado > sigui.dato.estado)
+                    {
+                        Actividad primero = act.dato;
+                        act.dato = sigui.dato; 
+                        sigui.dato = primero;
+                        cambio = 1;   
+                    }
+                    act = sigui; 
+                    sigui = sigui.sig;
                 }
-                nuevoNodo.sig = act.sig;
-                act.sig = nuevoNodo;    
-            }
+
+            } while (cambio == 1); 
+            
         }
     }
 }

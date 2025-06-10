@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\clases\\listasimpleactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\listasimpleactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\nodoactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\nodoactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\clases\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\nodoactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\nodoactividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,46 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Actividad.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Actividad.cs",
               "RelativeDocumentMoniker": "Clases\\Actividad.cs",
-              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Actividad.cs*",
-              "RelativeToolTip": "Clases\\Actividad.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Actividad.cs",
+              "RelativeToolTip": "Clases\\Actividad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T18:51:21.098Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListaSimpleActividad.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\ListaSimpleActividad.cs",
               "RelativeDocumentMoniker": "Clases\\ListaSimpleActividad.cs",
-              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\ListaSimpleActividad.cs*",
-              "RelativeToolTip": "Clases\\ListaSimpleActividad.cs*",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwCQAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\ListaSimpleActividad.cs",
+              "RelativeToolTip": "Clases\\ListaSimpleActividad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-10T18:42:46.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Curso.cs",
               "RelativeDocumentMoniker": "Clases\\Curso.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Curso.cs",
               "RelativeToolTip": "Clases\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T16:56:25.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Usuario.cs",
               "RelativeDocumentMoniker": "Clases\\Usuario.cs",
@@ -93,25 +93,24 @@
               "RelativeToolTip": "Clases\\Usuario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T16:23:49.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T16:23:49.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "NodoActividad.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\NodoActividad.cs",
               "RelativeDocumentMoniker": "Clases\\NodoActividad.cs",
-              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\NodoActividad.cs*",
-              "RelativeToolTip": "Clases\\NodoActividad.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\NodoActividad.cs",
+              "RelativeToolTip": "Clases\\NodoActividad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T15:51:29.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
               "RelativeDocumentMoniker": "Interfaz\\Form1.cs",
@@ -123,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoFinal\\Program.cs",
-              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs",
-              "RelativeToolTip": "ProyectoFinal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs*",
+              "RelativeToolTip": "ProyectoFinal\\Program.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T16:28:38.755Z",
               "EditorCaption": ""

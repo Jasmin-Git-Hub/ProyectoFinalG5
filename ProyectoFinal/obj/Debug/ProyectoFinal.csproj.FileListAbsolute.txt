@@ -5,3 +5,7 @@ C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\Proye
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.csproj.CoreCompileInputs.cache
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.exe
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\bin\Debug\Clases.dll
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\bin\Debug\Clases.pdb
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.exe.config
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\Proyecto.489DB05A.Up2Date

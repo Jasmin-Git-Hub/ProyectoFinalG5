@@ -9,11 +9,11 @@ namespace Clases
     public class Actividad
     {
         public string titulo;
-        public string fechaDeEentrega;
+        public string fechaDeEntrega;
         public int estado;
         public override string ToString()
         {
-            return "(" + titulo + "|" + fechaDeEentrega + "|" + estado + ")";
+            return "(" + titulo + "|" + fechaDeEntrega + "|" + estado + ")";
         }
     }
 }

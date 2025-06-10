@@ -41,7 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actividad.cs" />
     <Compile Include="Curso.cs" />
+    <Compile Include="ListaSimpleActividad.cs" />
     <Compile Include="NodoActividad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuario.cs" />

@@ -9,13 +9,8 @@ namespace Clases
 {
     public class NodoActividad
     {
-        public string titulo;
-        public string fechaDeEentrega;
-        public string estado; 
-        public override string ToString()
-        {
-            return "(" + titulo + "|" + fechaDeEentrega + "|" + estado + ")";
-        }
+        public Actividad dato;
+        public NodoActividad sig = null; 
 
     }
 }

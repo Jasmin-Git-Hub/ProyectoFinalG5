@@ -78,5 +78,29 @@ namespace Clases
             } while (cambio == 1); 
             
         }
+        public Actividad EliminarPorTitulo (string titulo)
+        {
+            NodoActividad temp=primero;
+            NodoActividad ant = null; 
+            while (temp != null && temp.dato.titulo != titulo)
+            {
+                ant = temp;
+                temp = temp.sig;
+
+            }
+            if (temp == null)
+            {
+                return null;
+            }
+            if (ant == null)
+            {
+                primero = temp.sig ;
+            }
+            else
+            {
+                ant.sig = temp.sig;
+            }
+            return temp.dato;
+        }
     }
 }

@@ -4,3 +4,9 @@ C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.cspro
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.dll
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.pdb
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\bin\Debug\Clases.dll
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\bin\Debug\Clases.pdb
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.csproj.AssemblyReference.cache
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.csproj.CoreCompileInputs.cache
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.dll
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Clases\obj\Debug\Clases.pdb

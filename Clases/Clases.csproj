@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actividad.cs" />
+    <Compile Include="ColaAgenda.cs" />
     <Compile Include="Curso.cs" />
     <Compile Include="ListaSimpleActividad.cs" />
     <Compile Include="NodoActividad.cs" />

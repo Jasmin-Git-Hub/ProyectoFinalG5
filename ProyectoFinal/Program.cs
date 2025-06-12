@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ namespace ProyectoFinal
         {
             ListaSimpleActividad ls = new ListaSimpleActividad();
             PilaActividad historial=new PilaActividad();
+            ColaAgenda cola = new ColaAgenda();
             int op;
             do
             {
@@ -24,6 +26,7 @@ namespace ProyectoFinal
                 Console.WriteLine("(4) Ver historial de tareas completadas: ");
                 Console.WriteLine("(5) Cursos");
                 Console.WriteLine("(6) Notas");
+                Console.WriteLine("(7) Agenda diaria");
                 Console.WriteLine("(0) Salir");
                 Console.WriteLine("Elija una opción"); 
                 op = int.Parse(Console.ReadLine());
@@ -68,7 +71,7 @@ namespace ProyectoFinal
                         }
                         Console.ReadKey();
                         break;
-                        case 4:
+                    case 4:
                             historial.MostrarHitorial();
                         Console.WriteLine("presione cualquier tecla paara continuar");
                         Console.ReadKey();
@@ -76,6 +79,26 @@ namespace ProyectoFinal
 
                             default:
                         Console.WriteLine("Opción no válida"); break;
+                    case 7:
+                        cola.mostrarCola();
+                        Actividad nu = new Actividad();
+                        Console.WriteLine("Agendar nueva actividad:");
+                        Console.WriteLine("Ingresa el título de la actividad:");
+                        nu.titulo = Console.ReadLine();
+                        Console.WriteLine("Detalle su actividad:");
+                        nu.descripcion= Console.ReadLine();
+                        cola.encolar(nu);
+                        Console.WriteLine("La activiad ha sido integrada");
+                        Console.ReadKey();
+                        Console.WriteLine("Cumplió con alguna actividad: (1) Si (2) No"); 
+                        int n2 = int.Parse(Console.ReadLine());
+                        switch (n2)
+                        {
+                            case 1:
+                                Console.WriteLine("Indique el titulo de la actividad completada"); 
+                                cola sig = cola.desencolar();
+                        }
+                        break; 
                 }
                 
             }while (op!=0);

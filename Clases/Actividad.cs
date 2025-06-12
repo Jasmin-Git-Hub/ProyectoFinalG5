@@ -11,6 +11,7 @@ namespace Clases
         public string titulo;
         public string fechaDeEntrega;
         public int estado;
+        public string descripcion; 
         public override string ToString()
         {
             return "(" + titulo + "|" + fechaDeEntrega + "|" + estado + ")";

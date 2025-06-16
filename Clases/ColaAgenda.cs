@@ -37,13 +37,28 @@ namespace Clases
         }
         public void mostrarCola()
         {
+            if (frente == null)
+            {
+                Console.WriteLine("No tienes actividades pendientes en tu agenda. Agrega unao tómate un descanso..."); 
+            }
             NodoActividad temp = frente;
-            Console.WriteLine("Actividades agendadas en orden:");
+            int cont = 0;
+            int cont2 = 0; 
+           
             while (temp != null)
             {
-                Console.WriteLine(temp.dato.titulo+ " -> " + temp.dato.estado);
+                cont2++;
+                if (cont == 0)
+                {
+                    
+                    Console.WriteLine("Actividades agendadas en orden:");
+                    cont = 1;
+                    
+                }
+                Console.WriteLine(cont2 + ". " + temp.dato.titulo+ " -> " + temp.dato.descripcion);
                 temp = temp.sig; 
             }
+           
         }
 
     }

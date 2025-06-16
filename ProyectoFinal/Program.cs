@@ -20,13 +20,15 @@ namespace ProyectoFinal
             {
                 Console.Clear();
                 Console.WriteLine("LISTA DE TAREAS: ");
-                Console.WriteLine("(1)Inserte tareas a registrar:");
+                Console.WriteLine("(1) Inserte tareas a registrar:");
                 Console.WriteLine("(2) Mostrar las tareas registradas ordenadas por prioridad:");
-                Console.WriteLine("(3)Marcar tareas como completadas:");
+                Console.WriteLine("(3) Marcar tareas como completadas:");
                 Console.WriteLine("(4) Ver historial de tareas completadas: ");
                 Console.WriteLine("(5) Cursos");
-                Console.WriteLine("(6) Notas");
-                Console.WriteLine("(7) Agenda diaria");
+                Console.WriteLine("(6) Mostrar actividades en la agenda:");
+                Console.WriteLine("(7) Completar alguna actividad:"); 
+                Console.WriteLine("(8) Agendar una nueva actividad para hoy: ");
+                Console.WriteLine("(9) Notas"); 
                 Console.WriteLine("(0) Salir");
                 Console.WriteLine("Elija una opción"); 
                 op = int.Parse(Console.ReadLine());
@@ -72,33 +74,42 @@ namespace ProyectoFinal
                         Console.ReadKey();
                         break;
                     case 4:
-                            historial.MostrarHitorial();
+                        historial.MostrarHitorial();
                         Console.WriteLine("presione cualquier tecla paara continuar");
                         Console.ReadKey();
                         break;
-
-                            default:
-                        Console.WriteLine("Opción no válida"); break;
-                    case 7:
+                    case 6: 
+                        Console.WriteLine("Las actividades programadas son las siguientes: ");
                         cola.mostrarCola();
+                        Console.WriteLine("Presiona cualquier tecla para continuar:");
+                        Console.ReadKey(); 
+                        break; 
+                    case 7:
+                        
+                        Actividad sig = cola.desencolar();
+                        if (sig != null)
+                        {
+                            Console.WriteLine("Completando actividad por orden: " + sig.titulo); 
+                        }
+                        else
+                        {
+                            Console.WriteLine("No hay actividades por completar");
+                        }
+
+                            Console.ReadKey();                     
+                        break;
+                    case 8:
                         Actividad nu = new Actividad();
                         Console.WriteLine("Agendar nueva actividad:");
                         Console.WriteLine("Ingresa el título de la actividad:");
                         nu.titulo = Console.ReadLine();
                         Console.WriteLine("Detalle su actividad:");
-                        nu.descripcion= Console.ReadLine();
+                        nu.descripcion = Console.ReadLine();
                         cola.encolar(nu);
-                        Console.WriteLine("La activiad ha sido integrada");
-                        Console.ReadKey();
-                        Console.WriteLine("Cumplió con alguna actividad: (1) Si (2) No"); 
-                        int n2 = int.Parse(Console.ReadLine());
-                        switch (n2)
-                        {
-                            case 1:
-                                Console.WriteLine("Indique el titulo de la actividad completada"); 
-                                cola sig = cola.desencolar();
-                        }
-                        break; 
+                        Console.WriteLine("La actividad ha sido integrada");
+                        break;
+                    default:
+                        Console.WriteLine("Opción no válida"); break;
                 }
                 
             }while (op!=0);

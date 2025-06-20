@@ -21,14 +21,14 @@ namespace ProyectoFinal
             {
                 Console.Clear();
                 Console.WriteLine("LISTA DE TAREAS: ");
-                Console.WriteLine("(1) Inserte tareas a registrar:");
-                Console.WriteLine("(2) Mostrar las tareas registradas ordenadas por prioridad:");
-                Console.WriteLine("(3) Marcar tareas como completadas:");
-                Console.WriteLine("(4) Ver historial de tareas completadas: ");
-                Console.WriteLine("(5) Mostrar las tareas en orden por fecha ");
-                Console.WriteLine("(6) Mostrar actividades en la agenda:");
-                Console.WriteLine("(7) Completar alguna actividad:"); 
-                Console.WriteLine("(8) Agendar una nueva actividad para hoy: ");
+                Console.WriteLine("(1) Inserte tareas a registrar: (LISTA SIMPLE)");
+                Console.WriteLine("(2) Mostrar las tareas registradas ordenadas por prioridad: (LISTA SIMPLE)");
+                Console.WriteLine("(3) Marcar tareas como completadas:(LISTA SIMPLE)");
+                Console.WriteLine("(4) Ver historial de tareas completadas: (PILA)");
+                Console.WriteLine("(5) Mostrar las tareas en orden por fecha: (ÁRBOLES BINARIOS) ");
+                Console.WriteLine("(6) Mostrar actividades en la agenda: (COLA)");
+                Console.WriteLine("(7) Completar alguna actividad de la agenda: (COLA)"); 
+                Console.WriteLine("(8) Agendar una nueva actividad para hoy (COLA): ");
                 Console.WriteLine("(9) Notas"); 
                 Console.WriteLine("(0) Salir");
                 Console.WriteLine("Elija una opción"); 

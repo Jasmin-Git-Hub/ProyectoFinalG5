@@ -42,10 +42,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actividad.cs" />
+    <Compile Include="ArbolBinario.cs" />
     <Compile Include="ColaAgenda.cs" />
     <Compile Include="Curso.cs" />
     <Compile Include="ListaSimpleActividad.cs" />
     <Compile Include="NodoActividad.cs" />
+    <Compile Include="NodoArbol.cs" />
     <Compile Include="NodoPila.cs" />
     <Compile Include="PilaActividad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

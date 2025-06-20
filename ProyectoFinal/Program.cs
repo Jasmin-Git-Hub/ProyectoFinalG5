@@ -14,6 +14,7 @@ namespace ProyectoFinal
         {
             ListaSimpleActividad ls = new ListaSimpleActividad();
             PilaActividad historial=new PilaActividad();
+            ArbolBinario arbol = new ArbolBinario();
             ColaAgenda cola = new ColaAgenda();
             int op;
             do
@@ -24,7 +25,7 @@ namespace ProyectoFinal
                 Console.WriteLine("(2) Mostrar las tareas registradas ordenadas por prioridad:");
                 Console.WriteLine("(3) Marcar tareas como completadas:");
                 Console.WriteLine("(4) Ver historial de tareas completadas: ");
-                Console.WriteLine("(5) Cursos");
+                Console.WriteLine("(5) Mostrar las tareas en orden por fecha ");
                 Console.WriteLine("(6) Mostrar actividades en la agenda:");
                 Console.WriteLine("(7) Completar alguna actividad:"); 
                 Console.WriteLine("(8) Agendar una nueva actividad para hoy: ");
@@ -41,7 +42,7 @@ namespace ProyectoFinal
                         Actividad n1 = new Actividad();
                         Console.WriteLine("Ingresa un título:");
                         n1.titulo = Console.ReadLine();
-                        Console.WriteLine("Ingresa la fecha de entrega:"); 
+                        Console.WriteLine("Ingresa la fecha de entrega, siga el siguiente formato dd/mm/yyyy:"); 
                         n1.fechaDeEntrega = Console.ReadLine();
                         Console.WriteLine("Selecciona la prioridad de la tarea: (1) Alta (2) Media (3) Baja"); 
                         n1.estado = int.Parse(Console.ReadLine());
@@ -76,6 +77,14 @@ namespace ProyectoFinal
                     case 4:
                         historial.MostrarHitorial();
                         Console.WriteLine("presione cualquier tecla paara continuar");
+                        Console.ReadKey();
+                        break;
+                    case 5:
+                        arbol.raiz_principal = null;
+                        arbol.lista(ls);
+                        Console.WriteLine("Tareas ordenadas por fecha:");
+                        arbol.dibujararbol();
+                        Console.WriteLine("Presione cualquier tecla para continuar ");
                         Console.ReadKey();
                         break;
                     case 6: 

@@ -7,3 +7,8 @@ C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.c
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.pdb
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Clases.dll
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Clases.pdb
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe.config
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.Form1.resources
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.Up2Date

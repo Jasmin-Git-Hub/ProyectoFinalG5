@@ -74,5 +74,7 @@ namespace Interfaz
             }
             errorProvider1.Clear(); 
         }
+
+        
     }
 }

@@ -12,3 +12,17 @@ C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Clases.pdb
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe.config
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.Form1.resources
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.Up2Date
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Interfaz.exe.config
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Interfaz.exe
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Interfaz.pdb
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Clases.dll
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\bin\Debug\Clases.pdb
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.AssemblyReference.cache
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe.config
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.Form1.resources
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.Properties.Resources.resources
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.GenerateResource.cache
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.Up2Date
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.pdb

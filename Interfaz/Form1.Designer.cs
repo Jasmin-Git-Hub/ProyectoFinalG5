@@ -52,7 +52,7 @@
             this.label1.ForeColor = System.Drawing.Color.Orange;
             this.label1.Location = new System.Drawing.Point(65, 143);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(273, 23);
+            this.label1.Size = new System.Drawing.Size(292, 25);
             this.label1.TabIndex = 2;
             this.label1.Text = "Lleva tu potencial al máximo";
             // 
@@ -63,7 +63,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(66, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(245, 16);
+            this.label2.Size = new System.Drawing.Size(257, 18);
             this.label2.TabIndex = 3;
             this.label2.Text = "Inicia sesión con tu correo UPN";
             // 
@@ -103,7 +103,7 @@
             this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(181, 457);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(130, 16);
+            this.label3.Size = new System.Drawing.Size(138, 18);
             this.label3.TabIndex = 5;
             this.label3.Text = "Ingrese correo: ";
             // 
@@ -127,6 +127,7 @@
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = false;
+     
             // 
             // button1
             // 

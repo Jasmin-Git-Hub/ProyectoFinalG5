@@ -3,12 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\pauls\\OneDrive\\Escritorio\\ProyectoFinalG5\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\pauls\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\pauls\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\validacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\validacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 724f492 (Se agrego 2do formulario)
     },
     {
       "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\pauls\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +83,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 12,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> 724f492 (Se agrego 2do formulario)
           "Children": [
             {
               "$type": "Document",
@@ -83,6 +104,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\pauls\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
@@ -217,6 +239,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Inicio.cs",
+              "RelativeDocumentMoniker": "Interfaz\\Inicio.cs",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Interfaz\\Inicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:25:16.64Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Validacion.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Validacion.cs",
+              "RelativeDocumentMoniker": "Clases\\Validacion.cs",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Validacion.cs",
+              "RelativeToolTip": "Clases\\Validacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:38:25.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
+              "RelativeDocumentMoniker": "Interfaz\\Form1.cs",
+              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
+              "RelativeToolTip": "Interfaz\\Form1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwE0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T16:11:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> 724f492 (Se agrego 2do formulario)
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\pauls\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
               "RelativeDocumentMoniker": "Interfaz\\Form1.cs",
@@ -228,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pauls\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoFinal\\Program.cs",

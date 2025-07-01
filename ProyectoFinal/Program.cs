@@ -16,6 +16,7 @@ namespace ProyectoFinal
             PilaActividad historial=new PilaActividad();
             ArbolBinario arbol = new ArbolBinario();
             ColaAgenda cola = new ColaAgenda();
+            Grafo gf = new Grafo(13);
             int op;
             do
             {
@@ -29,7 +30,7 @@ namespace ProyectoFinal
                 Console.WriteLine("(6) Mostrar actividades en la agenda: (COLA)");
                 Console.WriteLine("(7) Completar alguna actividad de la agenda: (COLA)"); 
                 Console.WriteLine("(8) Agendar una nueva actividad para hoy (COLA): ");
-                Console.WriteLine("(9) Notas"); 
+                Console.WriteLine("(9) Grafo"); 
                 Console.WriteLine("(0) Salir");
                 Console.WriteLine("Elija una opción"); 
                 op = int.Parse(Console.ReadLine());
@@ -117,6 +118,43 @@ namespace ProyectoFinal
                         cola.encolar(nu);
                         Console.WriteLine("La actividad ha sido integrada");
                         break;
+                    case 9:
+                        gf.RegistrarVertices();
+                        gf.llenarMatriz();
+                        Console.WriteLine("Matriz de Adyacencia:");
+                        gf.mostrarMatriz();
+                        Console.ReadKey();
+                        gf.crearGrafo();
+                        int opcion;
+                        do
+                        {
+                            float total = 0;
+                            Console.WriteLine(" \n Cursos Disponibles :");
+                            Vertice temp = gf.inicio_lista;
+                            while (temp != null)
+                            {
+                                Console.WriteLine("-" + temp.nombre);
+                                temp = temp.sig;
+                            }
+
+                            Console.Write("\n Ingrese el curso desde el que desea iniciar ");
+                            string cursoinicio = Console.ReadLine();
+
+                            Vertice inicio = gf.Buscar(cursoinicio);
+
+                            if (inicio != null)
+                            {
+                                gf.recorrerGrafo(inicio, ref total);
+                            }
+                            else
+                            {
+                                Console.WriteLine("curso no encontrado");
+                            }
+                            Console.WriteLine(" desea consultar otro curso ( selecione cualquier número para continuar ) o 0 para salir");
+                            opcion = int.Parse(Console.ReadLine());
+                        } while (opcion != 0);
+                        break; 
+
                     default:
                         Console.WriteLine("Opción no válida"); break;
                 }

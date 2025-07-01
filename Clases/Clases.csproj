@@ -43,8 +43,10 @@
   <ItemGroup>
     <Compile Include="Actividad.cs" />
     <Compile Include="ArbolBinario.cs" />
+    <Compile Include="Arista.cs" />
     <Compile Include="ColaAgenda.cs" />
     <Compile Include="Curso.cs" />
+    <Compile Include="Grafo.cs" />
     <Compile Include="ListaSimpleActividad.cs" />
     <Compile Include="NodoActividad.cs" />
     <Compile Include="NodoArbol.cs" />
@@ -53,6 +55,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Usuario.cs" />
     <Compile Include="Validacion.cs" />
+    <Compile Include="Vertice.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

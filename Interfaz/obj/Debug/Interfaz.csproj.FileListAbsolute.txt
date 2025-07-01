@@ -26,3 +26,4 @@ C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.c
 C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.csproj.Up2Date
 C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.exe
 C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.pdb
+C:\Users\pauls\OneDrive\Escritorio\ProyectoFinalG5\Interfaz\obj\Debug\Interfaz.Inicio.resources

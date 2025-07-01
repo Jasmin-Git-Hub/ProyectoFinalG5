@@ -76,35 +76,14 @@ namespace Interfaz
             }
             btnIngresar.Enabled = false;
             txtCorreo.Focus(); 
-            //if (!(correo[0] == 'N' || correo[0] == 'n'))
-            //{
-            //    errorProvider1.SetError(txtCorreo, "El correo debe empezar con 'N'.");
-            //    return;
-            //}
             
-            //int i = 1;
-            //while (i<=8)
-            //{
-            //    char c = correo[1]; 
-            //    if(c<'0' || c > '9')
-            //    {
-            //        errorProvider1.SetError(txtCorreo, "Debe haber 8 números despues de la 'N'");
-            //        return;
-            //    }
-            //    i = i + 1; 
-            //}
-            
-            ////Validamos que termine en @upn.pe 
-            //string dom = correo.Substring(9);
-            //if (dom != "@upn.pe")
-            //{
-            //    //res.mensaje = "El correo debe terminar en @upn.pe";
-            //    errorProvider1.SetError(txtCorreo, "El correo debe terminar en @upn.pe");
-            //    return;
-            //}
             errorProvider1.Clear(); 
         }
 
-        
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            using (Inicio nuevaInterfaz = new Inicio(txtCorreo.Text))
+                nuevaInterfaz.ShowDialog();
+        }
     }
 }

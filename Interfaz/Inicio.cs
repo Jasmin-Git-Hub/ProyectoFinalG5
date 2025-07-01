@@ -12,9 +12,12 @@ namespace Interfaz
 {
     public partial class Inicio : Form
     {
-        public Inicio()
+        string correo_cliente; 
+        public Inicio(string correo)
         {
             InitializeComponent();
         }
+
+        
     }
 }

@@ -98,5 +98,35 @@
       <Name>Clases</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOTIPO_PRINCIPAL_NEGATIVO_B-N_CMYK1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-task-free-content-task-s-angle-text-microsoft-office-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %288%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

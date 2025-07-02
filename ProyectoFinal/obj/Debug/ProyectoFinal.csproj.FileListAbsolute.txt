@@ -19,3 +19,4 @@ C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\Proye
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\Proyecto.489DB05A.Up2Date
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.exe
 C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\jasmi\OneDrive\Escritorio\ProyectoFinalG5\ProyectoFinal\obj\Debug\ProyectoFinal.exe.config

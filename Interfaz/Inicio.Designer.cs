@@ -29,234 +29,59 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btnRegistrar = new System.Windows.Forms.Button();
-            this.btnMostrar = new System.Windows.Forms.Button();
-            this.btnCompletar = new System.Windows.Forms.Button();
-            this.btnVer = new System.Windows.Forms.Button();
-            this.btnAgenda = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtBoxActividad = new System.Windows.Forms.TextBox();
+            this.txtBoxLimite = new System.Windows.Forms.TextBox();
+            this.ComboBoxPrioridad = new System.Windows.Forms.ComboBox();
+            this.btnRegistrar1 = new System.Windows.Forms.Button();
+            this.dgvOrdenar = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.label1.BackColor = System.Drawing.SystemColors.Control;
             this.label1.Font = new System.Drawing.Font("Tahoma", 16.16327F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(185)))), ((int)(((byte)(48)))));
-            this.label1.Location = new System.Drawing.Point(59, 112);
+            this.label1.ForeColor = System.Drawing.Color.Orange;
+            this.label1.Location = new System.Drawing.Point(59, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(144, 27);
             this.label1.TabIndex = 2;
             this.label1.Text = "Bienvenido:";
             // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.Silver;
-            this.btnRegistrar.Font = new System.Drawing.Font("Tahoma", 11.02041F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(64, 203);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(348, 56);
-            this.btnRegistrar.TabIndex = 3;
-            this.btnRegistrar.Text = "Regitrar tareas";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            
-            // 
-            // btnMostrar
-            // 
-            this.btnMostrar.BackColor = System.Drawing.Color.Silver;
-            this.btnMostrar.Font = new System.Drawing.Font("Tahoma", 11.02041F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(64, 294);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(348, 54);
-            this.btnMostrar.TabIndex = 4;
-            this.btnMostrar.Text = "Mostrar tareas por prioridad";
-            this.btnMostrar.UseVisualStyleBackColor = false;
-            // 
-            // btnCompletar
-            // 
-            this.btnCompletar.BackColor = System.Drawing.Color.Silver;
-            this.btnCompletar.Font = new System.Drawing.Font("Tahoma", 11.02041F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCompletar.Location = new System.Drawing.Point(64, 377);
-            this.btnCompletar.Name = "btnCompletar";
-            this.btnCompletar.Size = new System.Drawing.Size(348, 53);
-            this.btnCompletar.TabIndex = 5;
-            this.btnCompletar.Text = "Completar tareas";
-            this.btnCompletar.UseVisualStyleBackColor = false;
-            // 
-            // btnVer
-            // 
-            this.btnVer.BackColor = System.Drawing.Color.Silver;
-            this.btnVer.Font = new System.Drawing.Font("Tahoma", 11.02041F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVer.Location = new System.Drawing.Point(64, 473);
-            this.btnVer.Name = "btnVer";
-            this.btnVer.Size = new System.Drawing.Size(348, 50);
-            this.btnVer.TabIndex = 6;
-            this.btnVer.Text = "Ver tareas completadas";
-            this.btnVer.UseVisualStyleBackColor = false;
-           
-            // 
-            // btnAgenda
-            // 
-            this.btnAgenda.BackColor = System.Drawing.Color.Silver;
-            this.btnAgenda.Font = new System.Drawing.Font("Tahoma", 11.02041F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgenda.Location = new System.Drawing.Point(64, 561);
-            this.btnAgenda.Name = "btnAgenda";
-            this.btnAgenda.Size = new System.Drawing.Size(348, 51);
-            this.btnAgenda.TabIndex = 7;
-            this.btnAgenda.Text = "Agenda";
-            this.btnAgenda.UseVisualStyleBackColor = false;
-            // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(185)))), ((int)(((byte)(48)))));
+            this.button1.BackColor = System.Drawing.Color.Orange;
             this.button1.Font = new System.Drawing.Font("Tahoma", 11.7551F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(274, 662);
+            this.button1.Location = new System.Drawing.Point(292, 662);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 42);
+            this.button1.Size = new System.Drawing.Size(100, 42);
             this.button1.TabIndex = 9;
             this.button1.Text = "Salir ";
             this.button1.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox12.Image = global::Interfaz.Properties.Resources.descarga__7_;
-            this.pictureBox12.Location = new System.Drawing.Point(81, 571);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(37, 31);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 20;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox11.Image = global::Interfaz.Properties.Resources.descarga__3_;
-            this.pictureBox11.Location = new System.Drawing.Point(362, 571);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(40, 32);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 19;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox10.Image = global::Interfaz.Properties.Resources.descarga__3_;
-            this.pictureBox10.Location = new System.Drawing.Point(362, 482);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(40, 32);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 18;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox9.Image = global::Interfaz.Properties.Resources.descarga__6_;
-            this.pictureBox9.Location = new System.Drawing.Point(81, 482);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(37, 31);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 17;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox8.Image = global::Interfaz.Properties.Resources.descarga__3_;
-            this.pictureBox8.Location = new System.Drawing.Point(362, 386);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(40, 32);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 16;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox7.Image = global::Interfaz.Properties.Resources.descarga__5_;
-            this.pictureBox7.Location = new System.Drawing.Point(81, 386);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(37, 31);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 15;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox6.Image = global::Interfaz.Properties.Resources.descarga__3_;
-            this.pictureBox6.Location = new System.Drawing.Point(362, 305);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(40, 32);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox5.Image = global::Interfaz.Properties.Resources.descarga__8_;
-            this.pictureBox5.Location = new System.Drawing.Point(81, 305);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(37, 32);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 13;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox4.Image = global::Interfaz.Properties.Resources.descarga__3_;
-            this.pictureBox4.Location = new System.Drawing.Point(362, 214);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(40, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 12;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Silver;
-            this.pictureBox3.Image = global::Interfaz.Properties.Resources.descarga__1_;
-            this.pictureBox3.Location = new System.Drawing.Point(81, 214);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(35, 32);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.pictureBox2.BackColor = System.Drawing.SystemColors.Control;
             this.pictureBox2.Image = global::Interfaz.Properties.Resources.LOGOTIPO_PRINCIPAL_NEGATIVO_B_N_CMYK1;
-            this.pictureBox2.Location = new System.Drawing.Point(312, 64);
+            this.pictureBox2.Location = new System.Drawing.Point(312, 55);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(100, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -274,44 +99,180 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(64, 128);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 16);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Actividad:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(64, 156);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Límite:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(64, 183);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(74, 16);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "Prioridad: ";
+            // 
+            // txtBoxActividad
+            // 
+            this.txtBoxActividad.Location = new System.Drawing.Point(158, 125);
+            this.txtBoxActividad.Name = "txtBoxActividad";
+            this.txtBoxActividad.Size = new System.Drawing.Size(234, 20);
+            this.txtBoxActividad.TabIndex = 14;
+            // 
+            // txtBoxLimite
+            // 
+            this.txtBoxLimite.Location = new System.Drawing.Point(158, 155);
+            this.txtBoxLimite.Name = "txtBoxLimite";
+            this.txtBoxLimite.Size = new System.Drawing.Size(234, 20);
+            this.txtBoxLimite.TabIndex = 15;
+            // 
+            // ComboBoxPrioridad
+            // 
+            this.ComboBoxPrioridad.FormattingEnabled = true;
+            this.ComboBoxPrioridad.Location = new System.Drawing.Point(158, 183);
+            this.ComboBoxPrioridad.Name = "ComboBoxPrioridad";
+            this.ComboBoxPrioridad.Size = new System.Drawing.Size(234, 21);
+            this.ComboBoxPrioridad.TabIndex = 16;
+            // 
+            // btnRegistrar1
+            // 
+            this.btnRegistrar1.BackColor = System.Drawing.Color.Orange;
+            this.btnRegistrar1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRegistrar1.Location = new System.Drawing.Point(67, 222);
+            this.btnRegistrar1.Name = "btnRegistrar1";
+            this.btnRegistrar1.Size = new System.Drawing.Size(136, 32);
+            this.btnRegistrar1.TabIndex = 17;
+            this.btnRegistrar1.Text = "Registrar";
+            this.btnRegistrar1.UseVisualStyleBackColor = false;
+            this.btnRegistrar1.Click += new System.EventHandler(this.btnRegistrar1_Click);
+            // 
+            // dgvOrdenar
+            // 
+            this.dgvOrdenar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvOrdenar.Location = new System.Drawing.Point(67, 265);
+            this.dgvOrdenar.Name = "dgvOrdenar";
+            this.dgvOrdenar.Size = new System.Drawing.Size(325, 167);
+            this.dgvOrdenar.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(61, 452);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(290, 16);
+            this.label5.TabIndex = 19;
+            this.label5.Text = "Ingrese el nombre de la tarea a completar: ";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(64, 471);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(328, 25);
+            this.textBox1.TabIndex = 20;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(64, 507);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(196, 16);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Lista de tareas completadas:";
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Location = new System.Drawing.Point(64, 537);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(328, 95);
+            this.listBox1.TabIndex = 24;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Orange;
+            this.button2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button2.Location = new System.Drawing.Point(256, 222);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 32);
+            this.button2.TabIndex = 25;
+            this.button2.Text = "Ord. Fecha";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Orange;
+            this.button3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button3.Location = new System.Drawing.Point(64, 662);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(98, 42);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Agenda";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Orange;
+            this.button4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(179, 662);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(98, 42);
+            this.button4.TabIndex = 27;
+            this.button4.Text = "Grafo";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(470, 839);
-            this.Controls.Add(this.pictureBox12);
-            this.Controls.Add(this.pictureBox11);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.dgvOrdenar);
+            this.Controls.Add(this.btnRegistrar1);
+            this.Controls.Add(this.ComboBoxPrioridad);
+            this.Controls.Add(this.txtBoxLimite);
+            this.Controls.Add(this.txtBoxActividad);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.btnAgenda);
-            this.Controls.Add(this.btnVer);
-            this.Controls.Add(this.btnCompletar);
-            this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Inicio";
             this.Text = "Form2";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.Load += new System.EventHandler(this.Inicio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvOrdenar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,23 +280,23 @@
 
         #endregion
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnRegistrar;
-        private System.Windows.Forms.Button btnMostrar;
-        private System.Windows.Forms.Button btnCompletar;
-        private System.Windows.Forms.Button btnVer;
-        private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtBoxActividad;
+        private System.Windows.Forms.TextBox txtBoxLimite;
+        private System.Windows.Forms.ComboBox ComboBoxPrioridad;
+        private System.Windows.Forms.Button btnRegistrar1;
+        private System.Windows.Forms.DataGridView dgvOrdenar;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

@@ -44,6 +44,7 @@ namespace Interfaz
             if (correo.Length != 16)
             {
                 errorProvider1.SetError(txtCorreo, "El correo debe tener 16 carácteres");
+                btnIngresar.Enabled=false;
                 return;
             }
             else
@@ -51,6 +52,7 @@ namespace Interfaz
                 if (!(correo[0] == 'N' || correo[0] == 'n'))
                 {
                     errorProvider1.SetError(txtCorreo, "El correo debe empezar con 'N'.");
+                    btnIngresar.Enabled = false;
                     return;
                 }
                 int i = 1;
@@ -60,6 +62,7 @@ namespace Interfaz
                     if (c < '0' || c > '9')
                     {
                         errorProvider1.SetError(txtCorreo, "Debe haber 8 números despues de la 'N'");
+                        btnIngresar.Enabled = false;
                         return;
                     }
                     i = i + 1;
@@ -71,10 +74,11 @@ namespace Interfaz
                 {
                     //res.mensaje = "El correo debe terminar en @upn.pe";
                     errorProvider1.SetError(txtCorreo, "El correo debe terminar en @upn.pe");
+                    btnIngresar.Enabled = false;
                     return;
                 }
             }
-            btnIngresar.Enabled = false;
+            btnIngresar.Enabled = true;
             txtCorreo.Focus(); 
             
             errorProvider1.Clear(); 
@@ -82,8 +86,10 @@ namespace Interfaz
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            using (Inicio nuevaInterfaz = new Inicio(txtCorreo.Text))
-                nuevaInterfaz.ShowDialog();
+            Inicio form = new Inicio();
+            this.Hide(); 
+            form.ShowDialog();
+            this.Show(); 
         }
     }
 }

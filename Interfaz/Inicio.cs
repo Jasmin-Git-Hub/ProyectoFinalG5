@@ -14,6 +14,7 @@ namespace Interfaz
     public partial class Inicio : Form
     {
         ListaSimpleActividad ls = new ListaSimpleActividad();
+        ArbolBinario arbol1 = new ArbolBinario();
         public Inicio()
         {
             InitializeComponent();
@@ -91,6 +92,9 @@ namespace Interfaz
             
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

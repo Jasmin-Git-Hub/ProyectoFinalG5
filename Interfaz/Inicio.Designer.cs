@@ -60,7 +60,7 @@
             this.label1.ForeColor = System.Drawing.Color.Orange;
             this.label1.Location = new System.Drawing.Point(59, 87);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 27);
+            this.label1.Size = new System.Drawing.Size(149, 28);
             this.label1.TabIndex = 2;
             this.label1.Text = "Bienvenido:";
             // 
@@ -105,7 +105,7 @@
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(64, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 16);
+            this.label2.Size = new System.Drawing.Size(76, 17);
             this.label2.TabIndex = 11;
             this.label2.Text = "Actividad:";
             // 
@@ -115,7 +115,7 @@
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(64, 156);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.Size = new System.Drawing.Size(54, 17);
             this.label3.TabIndex = 12;
             this.label3.Text = "Límite:";
             // 
@@ -125,7 +125,7 @@
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(64, 183);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 16);
+            this.label4.Size = new System.Drawing.Size(79, 17);
             this.label4.TabIndex = 13;
             this.label4.Text = "Prioridad: ";
             // 
@@ -169,6 +169,7 @@
             this.dgvOrdenar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrdenar.Location = new System.Drawing.Point(67, 265);
             this.dgvOrdenar.Name = "dgvOrdenar";
+            this.dgvOrdenar.RowHeadersWidth = 42;
             this.dgvOrdenar.Size = new System.Drawing.Size(325, 167);
             this.dgvOrdenar.TabIndex = 18;
             // 
@@ -178,7 +179,7 @@
             this.label5.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(61, 452);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(290, 16);
+            this.label5.Size = new System.Drawing.Size(305, 17);
             this.label5.TabIndex = 19;
             this.label5.Text = "Ingrese el nombre de la tarea a completar: ";
             // 
@@ -196,7 +197,7 @@
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(64, 507);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(196, 16);
+            this.label6.Size = new System.Drawing.Size(204, 17);
             this.label6.TabIndex = 21;
             this.label6.Text = "Lista de tareas completadas:";
             // 
@@ -219,6 +220,7 @@
             this.button2.TabIndex = 25;
             this.button2.Text = "Ord. Fecha";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 

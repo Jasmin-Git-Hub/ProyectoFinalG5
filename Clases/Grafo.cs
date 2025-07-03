@@ -92,16 +92,6 @@ namespace Clases
             ma[5, 10] = 1;
             ma[3, 11] = 1;
             ma[1, 12] = 1;
-
-            //ma[9, 3] = 1;
-            //ma[3, 1] = 1;
-            //ma[4, 2] = 1;
-            //ma[5, 0] = 1;
-            //ma[7, 4] = 1;
-            //ma[8, 6] = 1;
-            //ma[10, 5] = 1;
-            //ma[11, 3] = 1;
-            //ma[12, 1] = 1;
         }
         public void mostrarMatriz()
         {
@@ -125,7 +115,7 @@ namespace Clases
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(temp.nombre.PadRight(ancho));
                 Console.ResetColor();
-
+                //Imprime las colunmas de la matriz 
                 for (int j = 0; j < ma.GetLength(1); j++)
                 {
                     Console.Write(ma[i, j].ToString().PadRight(ancho));
@@ -138,7 +128,7 @@ namespace Clases
         public void crearGrafo()
         {
             int[] creditoCurso = { 4, 5, 5, 5, 5, 4, 1, 5, 1, 5, 4, 4, 3 };
-            string unidad = "creditps";
+            string unidad = " Créditos";
 
             Vertice tempOrigen = inicio_lista;
             for (int i = 0; i < ma.GetLength(0); i++)//0= filas, origen
@@ -201,7 +191,6 @@ namespace Clases
                 temp = temp.sig;
             }
             return null;
-
         }
     }
 }

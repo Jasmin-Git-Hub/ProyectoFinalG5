@@ -64,23 +64,13 @@ namespace Interfaz
         {
             Actividad n1 = new Actividad();
             n1.titulo = txtBoxActividad.Text.Trim();
-            n1.fechaDeEntrega = txtBoxLimite.Text.Trim(); 
+            n1.fechaDeEntrega = txtBoxLimite.Text.Trim();
+            n1.estado = ComboBoxPrioridad.SelectedIndex +1;
+            arbol1.insertar(n1);
+            MessageBox.Show("Actividad guardada en ela arbol");
 
-            string prioridad = ComboBoxPrioridad.SelectedItem.ToString();
             
-            if (prioridad.StartsWith ("1"))
-            {
-                n1.estado = 1;
-            }
-            else if (prioridad.StartsWith("2"))
-            {
-                n1.estado = 2;
-            }
-            else if (prioridad.StartsWith("3"))
-            {
-                n1.estado = 3;
-            }
-            
+           
             ls.Insertar(n1);
             ls.OrdenarPrioridad();
             MostrarActivdiades(ls); 
@@ -94,7 +84,31 @@ namespace Interfaz
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // Limpiar el DataGridView y reiniciar el árbol
+            dgvOrdenar.Rows.Clear();
+            arbol1 = new ArbolBinario(); // ← Evita duplicados anteriores
+
+            // Insertar todas las actividades al árbol
+            NodoActividad temp2 = ls.primero;
+            while (temp2 != null)
+            {
+                arbol1.insertar(temp2.dato);
+                temp2 = temp2.sig;
+            }
+
+            // Mostrar ordenado por fecha (recorrido inorden)
+            arbol1.InOrden(arbol1.raiz_principal, dgvOrdenar);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
             
+            ls.OrdenarPrioridad();
+            MostrarActivdiades(ls);
+            txtBoxActividad.Clear();
+            txtBoxLimite.Clear();
+            ComboBoxPrioridad.SelectedIndex = 0;
+            MessageBox.Show("Ordenado correctamente");
         }
     }
 }

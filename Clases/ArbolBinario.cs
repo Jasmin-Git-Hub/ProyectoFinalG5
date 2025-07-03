@@ -1,9 +1,13 @@
 ﻿using System;
+using System.Drawing;
+
 using System.Collections.Generic;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 
 namespace Clases
 {
@@ -56,24 +60,26 @@ namespace Clases
                 Console.Write(actual.pendiente + "-");
             }
         }
-        public void InOrden(NodoArbol actual)
+        public void InOrden(NodoArbol actual, DataGridView dgv) //DataGridView dgv)
         {
             if (actual != null)
             {
                
-                InOrden(actual.izq);
+                InOrden(actual.izq, dgv);
                 Console.Write(actual.pendiente + "-");
-                InOrden(actual.der);
+                dgv.Rows.Add(actual.pendiente.titulo, actual.pendiente.fechaDeEntrega, actual.pendiente.estado);
+                InOrden(actual.der, dgv);
+               
             }
         }
-        public void MostrarInOrden ()
+        public void MostrarInOrden (DataGridView dgv)
         {
             if (raiz_principal==null)
             {
                 Console.WriteLine(" NO hay tareas pendientes para mostrar  ");
                 return;
             }
-            InOrden (raiz_principal);
+            InOrden (raiz_principal, dgv);
 
         }
         public void dibujararbol()

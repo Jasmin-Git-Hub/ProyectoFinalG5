@@ -18,22 +18,20 @@ namespace Clases
         //METODOS PARA LISTA (insertar y mostrar)
         public void RegistrarVertices()
         {
-            insertar("IIS"); //Introducción a la ingenieria de sistemas 
-            insertar("CMPI"); //Complemento matemático para ingeniería 
-            insertar("CO1"); //Comunicación 1 
+            insertar("IIS"); //0-Introducción a la ingenieria de sistemas 
+            insertar("FA"); //1-Fundamentos de de algoritmos 
+            insertar("FP"); //2-Fundamentos de porgramacion 
+            insertar("EDA"); //3- Estructura de datos
+            insertar("BD"); // 4- Base de datos 
+            insertar("TDPOO"); //5-tecnicas de prohramacion orientada a objetos 
+            insertar("BDAyBD");// 6 base de datos avanzado y big data 
+            insertar("MyAS");// 7 modelo y analisis de software
+            insertar("ED");// 8 eleltronica digital 
+            insertar("AC"); // 9 arquitectura del computador 
 
-            insertar("MBPI"); //Matemática Básica para Ingenieria 
-            insertar("CO2"); //Comunicación 2 
-            insertar("FA"); //Fundamentos de algoritmos 
-            insertar("PB1"); //PreBeginner 1
 
-            insertar("CO3"); //Comunicación 3 
-            insertar("PB2"); //PreBeginner 2 
-            insertar("C1"); //Cálculo 1
-            insertar("FP"); //Fundamentos de programación 
-            insertar("MD"); //matemática discreta 
-            insertar("MOO"); //Mecánica oscilación y ondas
         }
+
         public void insertar(string nombre)
         {
             //1.Crear el nuevo nodo
@@ -83,19 +81,27 @@ namespace Clases
 
                 }
             }
-            ma[3, 9] = 1;
-            ma[1, 3] = 1;
-            ma[2, 4] = 1;
-            ma[0, 5] = 1;
-            ma[4, 7] = 1;
-            ma[6, 8] = 1;
-            ma[5, 10] = 1;
-            ma[3, 11] = 1;
-            ma[1, 12] = 1;
+            ma[0, 1] = 1;
+            ma[1, 2] = 1;
+            ma[2, 3] = 1;
+            ma[2, 5] = 1;
+            ma[3, 4] = 1;
+            ma[4, 6] = 1;
+            ma[5, 7] = 1;
+            ma[8, 9] = 1;
+            //ma[9, 3] = 1;
+            //ma[3, 1] = 1;
+            //ma[4, 2] = 1;
+            //ma[5, 0] = 1;
+            //ma[7, 4] = 1;
+            //ma[8, 6] = 1;
+            //ma[10, 5] = 1;
+            //ma[11, 3] = 1;
+            //ma[12, 1] = 1;
         }
         public void mostrarMatriz()
         {
-            int ancho = 8;
+            int ancho = 12;
             Vertice temp = inicio_lista;
             Console.Write("".PadRight(ancho));
 
@@ -115,7 +121,7 @@ namespace Clases
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(temp.nombre.PadRight(ancho));
                 Console.ResetColor();
-                //Imprime las colunmas de la matriz 
+
                 for (int j = 0; j < ma.GetLength(1); j++)
                 {
                     Console.Write(ma[i, j].ToString().PadRight(ancho));
@@ -127,23 +133,37 @@ namespace Clases
         //METODOS DE GRAFOS
         public void crearGrafo()
         {
-            int[] creditoCurso = { 4, 5, 5, 5, 5, 4, 1, 5, 1, 5, 4, 4, 3 };
-            string unidad = " Créditos";
+            int[] complejidad =
+             {
+               2,
+               2,
+               3,
+               4,
+               5,
+               1,
+               2,
+               5,
+               1,
 
+
+            };
+            string unidad = "complejidad ";
             Vertice tempOrigen = inicio_lista;
-            for (int i = 0; i < ma.GetLength(0); i++)//0= filas, origen
+            for (int i = 0; i < ma.GetLength(0); i++)
             {
+
                 Vertice tempDestino = inicio_lista;
-                for (int j = 0; j < ma.GetLength(1); j++)//1=columnas, destinos
+                for (int j = 0; j < ma.GetLength(1); j++)
                 {
-                    if (ma[i, j] == 1)//si adyacencia o arista
+                    if (ma[i, j] == 1)
                     {
-                        //union
-                        tempOrigen.insertarArista(tempDestino, creditoCurso[i], unidad);
+                        tempOrigen.insertarArista(tempDestino, complejidad[i], unidad);
                     }
                     tempDestino = tempDestino.sig;
+
                 }
                 tempOrigen = tempOrigen.sig;
+
             }
         }
 
@@ -175,7 +195,7 @@ namespace Clases
             }
             else
             {
-                Console.WriteLine("creditos acumulados  : " + total);
+                Console.WriteLine(" complejidad  total " + total);
             }
             Console.ReadKey();
         }
@@ -191,6 +211,7 @@ namespace Clases
                 temp = temp.sig;
             }
             return null;
+
         }
     }
 }

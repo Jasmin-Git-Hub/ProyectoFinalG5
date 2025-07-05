@@ -16,7 +16,7 @@ namespace ProyectoFinal
             PilaActividad historial=new PilaActividad();
             ArbolBinario arbol = new ArbolBinario();
             ColaAgenda cola = new ColaAgenda();
-            Grafo gf = new Grafo(13);
+            Grafo gf = new Grafo(10);
             int op;
             do
             {

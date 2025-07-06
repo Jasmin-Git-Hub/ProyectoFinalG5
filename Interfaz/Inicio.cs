@@ -15,6 +15,7 @@ namespace Interfaz
     {
         ListaSimpleActividad ls = new ListaSimpleActividad();
         ArbolBinario arbol1 = new ArbolBinario();
+        PilaActividad historial = new PilaActividad();
         public Inicio()
         {
             InitializeComponent();
@@ -109,6 +110,31 @@ namespace Interfaz
             txtBoxLimite.Clear();
             ComboBoxPrioridad.SelectedIndex = 0;
             MessageBox.Show("Ordenado correctamente");
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string completado = textBox1.Text.Trim();
+            if (string.IsNullOrEmpty(completado))
+            {
+                MessageBox.Show("Ingrese el nombre de la tarea:");
+                return; 
+            }
+            Actividad tareaCompletada = ls.EliminarPorTitulo(completado);
+            if (tareaCompletada != null)
+            {
+                historial.apilar(tareaCompletada);
+                MostrarActivdiades(ls);
+                listBoxCompletadas.Items.Clear();
+                historial.MostrarHitorial(listBoxCompletadas);
+                MessageBox.Show("Tarea completa y movida al historial,verifique su historial por favor");
+                txtBoxActividad.Clear(); 
+            }
+            else
+            {
+                MessageBox.Show("no se encontro la tarea");
+
+            }
         }
     }
 }

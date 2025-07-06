@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Clases
 {
@@ -29,7 +30,7 @@ namespace Clases
             return act;
         }
 
-        public void MostrarHitorial()
+        public void MostrarHitorial(ListBox lista)
         {
             NodoPila act = cima;
             Console.WriteLine("Historial de tareas completadas :");

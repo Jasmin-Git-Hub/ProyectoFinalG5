@@ -146,5 +146,17 @@
   <ItemGroup>
     <None Include="Resources\descarga %288%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f78a4c26-171e-40b5-b25e-e0ae9e138c34-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f78a4c26-171e-40b5-b25e-e0ae9e138c34-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

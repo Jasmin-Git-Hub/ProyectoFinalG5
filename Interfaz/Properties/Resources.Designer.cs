@@ -83,6 +83,16 @@ namespace Interfaz.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("descarga (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descarga__2_ {
             get {
                 object obj = ResourceManager.GetObject("descarga (2)", resourceCulture);
@@ -146,6 +156,36 @@ namespace Interfaz.Properties {
         internal static System.Drawing.Bitmap descarga__8_ {
             get {
                 object obj = ResourceManager.GetObject("descarga (8)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga1 {
+            get {
+                object obj = ResourceManager.GetObject("descarga1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f78a4c26_171e_40b5_b25e_e0ae9e138c34_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("f78a4c26-171e-40b5-b25e-e0ae9e138c34-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap f78a4c26_171e_40b5_b25e_e0ae9e138c34_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("f78a4c26-171e-40b5-b25e-e0ae9e138c34-removebg-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

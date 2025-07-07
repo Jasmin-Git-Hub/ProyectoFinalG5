@@ -14,6 +14,7 @@ namespace Interfaz
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
@@ -27,6 +28,8 @@ namespace Interfaz
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           
+
             //El botón ingrear en su propiedad enabled (habilitado) va a tener el valor falso, es decir, va a estar deshabilitado al inicio
             btnIngresar.Enabled = false;
         }
@@ -91,5 +94,7 @@ namespace Interfaz
             form.ShowDialog();
             this.Show(); 
         }
+
+        
     }
 }

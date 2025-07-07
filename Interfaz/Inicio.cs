@@ -135,6 +135,7 @@ namespace Interfaz
                 MessageBox.Show("no se encontro la tarea");
 
             }
+            textBox1.Clear(); 
         }
 
         private void button3_Click(object sender, EventArgs e)

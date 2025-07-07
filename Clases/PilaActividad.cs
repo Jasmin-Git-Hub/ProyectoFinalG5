@@ -36,7 +36,7 @@ namespace Clases
             Console.WriteLine("Historial de tareas completadas :");
             while (act != null)
             {
-                Console.WriteLine(act.activ.titulo+ " De prioridad :" + act.activ.estado);
+              lista.Items.Add(act.activ.titulo+ " De prioridad :" + act.activ.estado);
                 act = act.sig;  
             }
         }

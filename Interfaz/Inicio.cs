@@ -144,5 +144,13 @@ namespace Interfaz
             form2.ShowDialog();
             this.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Malla form3 = new Malla();
+            this.Hide();
+            form3.ShowDialog();
+            this.Show();
+        }
     }
 }

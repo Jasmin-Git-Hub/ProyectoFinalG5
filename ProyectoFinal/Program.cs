@@ -76,7 +76,7 @@ namespace ProyectoFinal
                         Console.ReadKey();
                         break;
                     case 4:
-                        historial.MostrarHitorial();
+                        //historial.MostrarHitorial();
                         Console.WriteLine("presione cualquier tecla paara continuar");
                         Console.ReadKey();
                         break;

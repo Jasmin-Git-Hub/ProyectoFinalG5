@@ -95,6 +95,7 @@
             // 
             // txtAgendar
             // 
+            this.txtAgendar.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAgendar.Location = new System.Drawing.Point(64, 198);
             this.txtAgendar.Multiline = true;
             this.txtAgendar.Name = "txtAgendar";
@@ -126,6 +127,7 @@
             // 
             // txtCompletar
             // 
+            this.txtCompletar.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCompletar.Location = new System.Drawing.Point(64, 596);
             this.txtCompletar.Multiline = true;
             this.txtCompletar.Name = "txtCompletar";

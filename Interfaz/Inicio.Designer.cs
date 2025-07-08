@@ -127,7 +127,7 @@
             // 
             // txtBoxLimite
             // 
-            this.txtBoxLimite.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBoxLimite.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBoxLimite.Location = new System.Drawing.Point(165, 202);
             this.txtBoxLimite.Name = "txtBoxLimite";
             this.txtBoxLimite.Size = new System.Drawing.Size(234, 23);
@@ -135,7 +135,7 @@
             // 
             // ComboBoxPrioridad
             // 
-            this.ComboBoxPrioridad.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComboBoxPrioridad.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBoxPrioridad.FormattingEnabled = true;
             this.ComboBoxPrioridad.Location = new System.Drawing.Point(165, 230);
             this.ComboBoxPrioridad.Name = "ComboBoxPrioridad";
@@ -177,7 +177,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(74, 536);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -197,7 +197,7 @@
             // 
             // listBoxCompletadas
             // 
-            this.listBoxCompletadas.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBoxCompletadas.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxCompletadas.FormattingEnabled = true;
             this.listBoxCompletadas.ItemHeight = 18;
             this.listBoxCompletadas.Location = new System.Drawing.Point(74, 608);

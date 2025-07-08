@@ -18,16 +18,27 @@ namespace Clases
         //METODOS PARA LISTA (insertar y mostrar)
         public void RegistrarVertices()
         {
-            insertar("IIS"); //0-Introducción a la ingenieria de sistemas 
-            insertar("FA"); //1-Fundamentos de de algoritmos 
-            insertar("FP"); //2-Fundamentos de porgramacion 
-            insertar("EDA"); //3- Estructura de datos
-            insertar("BD"); // 4- Base de datos 
-            insertar("TDPOO"); //5-tecnicas de prohramacion orientada a objetos 
-            insertar("BDAyBD");// 6 base de datos avanzado y big data 
-            insertar("MyAS");// 7 modelo y analisis de software
-            insertar("ED");// 8 eleltronica digital 
-            insertar("AC"); // 9 arquitectura del computador 
+            //insertar("IIS"); //0-Introducción a la ingenieria de sistemas 
+            //insertar("FA"); //1-Fundamentos de de algoritmos 
+            //insertar("FP"); //2-Fundamentos de porgramacion 
+            //insertar("EDA"); //3- Estructura de datos
+            //insertar("BD"); // 4- Base de datos 
+            //insertar("TDPOO"); //5-tecnicas de prohramacion orientada a objetos 
+            //insertar("BDAyBD");// 6 base de datos avanzado y big data 
+            //insertar("MyAS");// 7 modelo y analisis de software
+            //insertar("ED");// 8 eleltronica digital 
+            //insertar("AC"); // 9 arquitectura del computador 
+
+            insertar("Intr. Ing. De Sistemas Computac."); //0-Introducción a la ingenieria de sistemas 
+            insertar("Fundamentos de Algoritmos"); //1-Fundamentos de de algoritmos 
+            insertar("Fundamentos de Programación"); //2-Fundamentos de porgramacion 
+            insertar("Estructura de Datos"); //3- Estructura de datos
+            insertar("Base de Datos"); // 4- Base de datos 
+            insertar("Técnicas de Programación.Ori.Obj"); //5-tecnicas de prohramacion orientada a objetos 
+            insertar("Base de datos avanzado");// 6 base de datos avanzado y big data 
+            insertar("Modelo y análisis de software");// 7 modelo y analisis de software
+            insertar("Electrónica digital");// 8 eleltronica digital 
+            insertar("Arquitectura del computador"); // 9 arquitectura del computador 
 
 
         }

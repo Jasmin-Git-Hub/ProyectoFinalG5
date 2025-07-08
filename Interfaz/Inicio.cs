@@ -30,7 +30,7 @@ namespace Interfaz
             dgvOrdenar.ColumnCount = 3;
             dgvOrdenar.Columns[0].Name = "Título:";
             dgvOrdenar.Columns[1].Name = "Fecha de entrega:";
-            dgvOrdenar.Columns[2].Name = "Prioridad";
+            dgvOrdenar.Columns[2].Name = "Prioridad:";
             dgvOrdenar.Rows.Clear();
         }
 
@@ -68,7 +68,7 @@ namespace Interfaz
             n1.fechaDeEntrega = txtBoxLimite.Text.Trim();
             n1.estado = ComboBoxPrioridad.SelectedIndex +1;
             arbol1.insertar(n1);
-            MessageBox.Show("Actividad guardada en ela arbol");
+            //MessageBox.Show("Actividad guardada en el árbol");
 
             
            
@@ -87,7 +87,7 @@ namespace Interfaz
         {
             // Limpiar el DataGridView y reiniciar el árbol
             dgvOrdenar.Rows.Clear();
-            arbol1 = new ArbolBinario(); // ← Evita duplicados anteriores
+            arbol1 = new ArbolBinario(); //  Evita duplicados anteriores
 
             // Insertar todas las actividades al árbol
             NodoActividad temp2 = ls.primero;
@@ -127,12 +127,12 @@ namespace Interfaz
                 MostrarActivdiades(ls);
                 listBoxCompletadas.Items.Clear();
                 historial.MostrarHitorial(listBoxCompletadas);
-                MessageBox.Show("Tarea completa y movida al historial,verifique su historial por favor");
+                MessageBox.Show("Tarea completada y movida al historial, verifique su historial por favor");
                 txtBoxActividad.Clear(); 
             }
             else
             {
-                MessageBox.Show("no se encontro la tarea");
+                MessageBox.Show("No se encontro la tarea. Intente de nuevo...");
 
             }
             textBox1.Clear(); 

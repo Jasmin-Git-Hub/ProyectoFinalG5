@@ -34,18 +34,19 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtIndagar = new System.Windows.Forms.TextBox();
             this.btnIndagar = new System.Windows.Forms.Button();
-            this.lstListaMalla = new System.Windows.Forms.ListBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.dgvIndagar = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMalla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIndagar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -92,7 +93,7 @@
             // 
             // txtIndagar
             // 
-            this.txtIndagar.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIndagar.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIndagar.Location = new System.Drawing.Point(74, 432);
             this.txtIndagar.Multiline = true;
             this.txtIndagar.Name = "txtIndagar";
@@ -110,16 +111,6 @@
             this.btnIndagar.Text = "Indagar";
             this.btnIndagar.UseVisualStyleBackColor = false;
             this.btnIndagar.Click += new System.EventHandler(this.btnIndagar_Click);
-            // 
-            // lstListaMalla
-            // 
-            this.lstListaMalla.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lstListaMalla.FormattingEnabled = true;
-            this.lstListaMalla.ItemHeight = 16;
-            this.lstListaMalla.Location = new System.Drawing.Point(74, 477);
-            this.lstListaMalla.Name = "lstListaMalla";
-            this.lstListaMalla.Size = new System.Drawing.Size(349, 148);
-            this.lstListaMalla.TabIndex = 17;
             // 
             // button2
             // 
@@ -190,17 +181,25 @@
             this.pictureBox2.TabIndex = 35;
             this.pictureBox2.TabStop = false;
             // 
+            // dgvIndagar
+            // 
+            this.dgvIndagar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvIndagar.Location = new System.Drawing.Point(74, 475);
+            this.dgvIndagar.Name = "dgvIndagar";
+            this.dgvIndagar.Size = new System.Drawing.Size(346, 150);
+            this.dgvIndagar.TabIndex = 37;
+            // 
             // Malla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(476, 826);
+            this.Controls.Add(this.dgvIndagar);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.lstListaMalla);
             this.Controls.Add(this.btnIndagar);
             this.Controls.Add(this.txtIndagar);
             this.Controls.Add(this.label3);
@@ -216,6 +215,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvIndagar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,11 +230,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtIndagar;
         private System.Windows.Forms.Button btnIndagar;
-        private System.Windows.Forms.ListBox lstListaMalla;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.DataGridView dgvIndagar;
     }
 }

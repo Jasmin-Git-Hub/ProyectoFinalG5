@@ -38,7 +38,7 @@ namespace Interfaz
 
             if ( string.IsNullOrEmpty(titulo))
             {
-                MessageBox.Show("la actividad no puede estar vacia ");
+                MessageBox.Show("La actividad no puede estar vacía");
                 return;
             }
 
@@ -71,7 +71,7 @@ namespace Interfaz
             string completado = txtCompletar.Text.Trim();
             if (string .IsNullOrEmpty(completado))
             {
-                MessageBox.Show(" El nombre de la actividad a completar no puede estar vacio");
+                MessageBox.Show(" El nombre de la actividad a completar no puede estar vacía");
                 return;
             }
             
@@ -83,18 +83,18 @@ namespace Interfaz
                 {
                     cola.desencolar();
                     mostrar(cola);
-                    MessageBox.Show(" Actividad completada");
+                    MessageBox.Show("Actividad completada");
                     txtCompletar.Clear();
                 }
                 else
 
                 {
-                    MessageBox.Show(" no se encontro la actividad");
+                    MessageBox.Show("Las actividades debden ser completadas en orden, verifique por favor...");
                 }
             }
             else
             {
-                MessageBox.Show(" no hay actividades pendientes");
+                MessageBox.Show("No hay actividades pendientes");
             }
 
         }

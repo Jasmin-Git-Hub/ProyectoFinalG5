@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,32 +19,12 @@
       "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\malla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\malla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\interfaz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|c:\\users\\jasmi\\onedrive\\escritorio\\proyectofinalg5\\proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BD00DA2-244E-4AB7-8528-396A4CC4AAB4}|ProyectoFinal\\ProyectoFinal.csproj|solutionrelative:proyectofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\malla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,6 +37,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\clases\\grafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50A0E4A6-F019-4F3B-8B46-0F1DA3C6C364}|Clases\\Clases.csproj|solutionrelative:clases\\grafo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\malla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\malla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5395BAA7-6688-4887-ADE1-5CA4BA9F53EE}|Interfaz\\Interfaz.csproj|solutionrelative:interfaz\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
               "RelativeDocumentMoniker": "Interfaz\\Form1.cs",
@@ -75,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Inicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Inicio.cs",
               "RelativeDocumentMoniker": "Interfaz\\Inicio.cs",
@@ -88,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Malla.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Malla.cs",
               "RelativeDocumentMoniker": "Interfaz\\Malla.cs",
@@ -101,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Agenda.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Agenda.cs",
               "RelativeDocumentMoniker": "Interfaz\\Agenda.cs",
@@ -118,58 +114,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Interfaz\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.Designer.cs",
-              "RelativeToolTip": "Interfaz\\Form1.Designer.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAiwDwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T21:49:51.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Inicio.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Inicio.cs",
               "RelativeDocumentMoniker": "Interfaz\\Inicio.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Inicio.cs",
               "RelativeToolTip": "Interfaz\\Inicio.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAnwIkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwEsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T14:56:44.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "Agenda.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Agenda.cs",
               "RelativeDocumentMoniker": "Interfaz\\Agenda.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Agenda.cs",
               "RelativeToolTip": "Interfaz\\Agenda.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAxwCAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwFsAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T18:17:32.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Grafo.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Grafo.cs",
               "RelativeDocumentMoniker": "Clases\\Grafo.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Grafo.cs",
               "RelativeToolTip": "Clases\\Grafo.cs",
-              "ViewState": "AgIAALAAAAAAAAAAAAAAwNkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T18:01:19.741Z"
+              "WhenOpened": "2025-07-07T18:01:19.741Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Clases\\Curso.cs",
               "RelativeDocumentMoniker": "Clases\\Curso.cs",
@@ -177,24 +161,25 @@
               "RelativeToolTip": "Clases\\Curso.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T18:01:17.224Z"
+              "WhenOpened": "2025-07-07T18:01:17.224Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Malla.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Malla.cs",
               "RelativeDocumentMoniker": "Interfaz\\Malla.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Malla.cs",
               "RelativeToolTip": "Interfaz\\Malla.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwFsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T17:15:33.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\Interfaz\\Form1.cs",
               "RelativeDocumentMoniker": "Interfaz\\Form1.cs",
@@ -207,13 +192,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoFinal\\Program.cs",
               "ToolTip": "C:\\Users\\jasmi\\OneDrive\\Escritorio\\ProyectoFinalG5\\ProyectoFinal\\Program.cs",
               "RelativeToolTip": "ProyectoFinal\\Program.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAgwJsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwJsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T14:56:44.976Z",
               "EditorCaption": ""

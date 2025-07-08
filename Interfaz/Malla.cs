@@ -29,38 +29,10 @@ namespace Interfaz
             malla.crearGrafo();
 
             dgvMalla.ColumnCount = 1;
-            dgvMalla.Columns[0].Name = "Cursos habilitados:";
+            dgvMalla.Columns[0].Name = "Cursos de carrera:";
             dgvMalla.Rows.Clear();
             dgvMalla.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
 
-            //do
-            //{
-            //    float total = 0;
-            //    Console.WriteLine(" \n Cursos Disponibles :");
-            //    Vertice temp = gf.inicio_lista;
-            //    while (temp != null)
-            //    {
-            //        Console.WriteLine("-" + temp.nombre);
-            //        temp = temp.sig;
-            //    }
-
-            //    Console.Write("\n Ingrese el curso desde el que desea iniciar ");
-            //    string cursoinicio = Console.ReadLine();
-
-            //    Vertice inicio = gf.Buscar(cursoinicio);
-
-            //    if (inicio != null)
-            //    {
-            //        gf.recorrerGrafo(inicio, ref total);
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("curso no encontrado");
-            //    }
-            //    Console.WriteLine(" desea consultar otro curso ( selecione cualquier número para continuar ) o 0 para salir");
-            //    opcion = int.Parse(Console.ReadLine());
-            //} while (opcion != 0);
-            //break;
 
             Vertice temp = malla.inicio_lista; 
             while (temp != null)
@@ -69,19 +41,25 @@ namespace Interfaz
                 temp = temp.sig; 
             }
 
+            dgvIndagar.ColumnCount = 2;
+            dgvIndagar.Columns[0].Name = "Cursos habilitados:";
+            dgvIndagar.Columns[1].Name = "Nivel de complejidad";
+            dgvIndagar.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dgvIndagar.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            
         }
 
         private void btnIndagar_Click(object sender, EventArgs e)
         {
             string curso = txtIndagar.Text.Trim();
-            Vertice curso1 = malla.Buscar(curso); 
-            lstListaMalla.Items.Clear();
+            Vertice curso1 = malla.Buscar(curso);
+            dgvIndagar.Rows.Clear(); 
             if (curso1 != null)
             {
                 Arista temp = curso1.lista_arista;
                 while (temp != null)
                 {
-                    lstListaMalla.Items.Add(temp.destino.nombre + "Nivel de complejidad:" + temp.costo);
+                    dgvIndagar.Rows.Add(temp.destino.nombre, temp.costo);
                     temp = temp.sig; 
                 }
             }

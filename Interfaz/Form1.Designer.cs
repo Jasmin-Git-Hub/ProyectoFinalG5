@@ -56,7 +56,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
             this.label1.Location = new System.Drawing.Point(62, 155);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(348, 78);
+            this.label1.Size = new System.Drawing.Size(363, 80);
             this.label1.TabIndex = 2;
             this.label1.Text = "Lleva tu potencial al \r\nmáximo\r\n";
             // 
@@ -68,7 +68,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(66, 259);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 19);
+            this.label2.Size = new System.Drawing.Size(279, 21);
             this.label2.TabIndex = 3;
             this.label2.Text = "Inicia sesión con tu correo UPN";
             // 
@@ -80,7 +80,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label3.Location = new System.Drawing.Point(164, 571);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(146, 19);
+            this.label3.Size = new System.Drawing.Size(156, 20);
             this.label3.TabIndex = 5;
             this.label3.Text = "Ingrese correo: ";
             // 
@@ -99,13 +99,14 @@
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
             this.btnIngresar.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnIngresar.Location = new System.Drawing.Point(182, 676);
+            this.btnIngresar.Location = new System.Drawing.Point(168, 676);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(100, 33);
+            this.btnIngresar.Size = new System.Drawing.Size(120, 33);
             this.btnIngresar.TabIndex = 7;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = false;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
+            this.btnIngresar.Enter += new System.EventHandler(this.btnIngresar_Click);
             // 
             // button1
             // 
@@ -130,7 +131,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label4.Location = new System.Drawing.Point(66, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 18);
+            this.label4.Size = new System.Drawing.Size(55, 19);
             this.label4.TabIndex = 14;
             this.label4.Text = "11:00";
             // 

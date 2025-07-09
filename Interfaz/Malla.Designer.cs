@@ -57,7 +57,7 @@
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
             this.label1.Location = new System.Drawing.Point(59, 140);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 27);
+            this.label1.Size = new System.Drawing.Size(194, 28);
             this.label1.TabIndex = 10;
             this.label1.Text = "Malla curricular";
             // 
@@ -66,6 +66,7 @@
             this.dgvMalla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMalla.Location = new System.Drawing.Point(64, 199);
             this.dgvMalla.Name = "dgvMalla";
+            this.dgvMalla.RowHeadersWidth = 42;
             this.dgvMalla.Size = new System.Drawing.Size(344, 179);
             this.dgvMalla.TabIndex = 12;
             // 
@@ -73,10 +74,15 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
+<<<<<<< HEAD
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(59, 167);
+=======
+            this.label2.Font = new System.Drawing.Font("Tahoma", 10.28571F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(71, 167);
+>>>>>>> 23394e768e9e256bfa0961b18ddb504b42f1deb2
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(349, 18);
+            this.label2.Size = new System.Drawing.Size(319, 17);
             this.label2.TabIndex = 13;
             this.label2.Text = "Plan curricular: Ing. de Sist. Computacionales";
             // 
@@ -87,7 +93,7 @@
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(61, 397);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(274, 18);
+            this.label3.Size = new System.Drawing.Size(300, 19);
             this.label3.TabIndex = 14;
             this.label3.Text = "Ingrese el curso que desea indagar:";
             // 
@@ -133,7 +139,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label7.Location = new System.Drawing.Point(73, 43);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 18);
+            this.label7.Size = new System.Drawing.Size(55, 19);
             this.label7.TabIndex = 34;
             this.label7.Text = "11:00";
             // 
@@ -186,6 +192,7 @@
             this.dgvIndagar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvIndagar.Location = new System.Drawing.Point(62, 475);
             this.dgvIndagar.Name = "dgvIndagar";
+            this.dgvIndagar.RowHeadersWidth = 42;
             this.dgvIndagar.Size = new System.Drawing.Size(346, 150);
             this.dgvIndagar.TabIndex = 37;
             // 

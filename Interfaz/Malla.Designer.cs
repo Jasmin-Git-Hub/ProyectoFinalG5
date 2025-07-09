@@ -74,13 +74,13 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
-<<<<<<< HEAD
+
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(59, 167);
-=======
+
             this.label2.Font = new System.Drawing.Font("Tahoma", 10.28571F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(71, 167);
->>>>>>> 23394e768e9e256bfa0961b18ddb504b42f1deb2
+
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(319, 17);
             this.label2.TabIndex = 13;

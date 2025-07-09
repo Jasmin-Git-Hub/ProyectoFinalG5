@@ -55,7 +55,7 @@
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
             this.label1.Font = new System.Drawing.Font("Tahoma", 16.16327F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
-            this.label1.Location = new System.Drawing.Point(71, 140);
+            this.label1.Location = new System.Drawing.Point(59, 140);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(187, 27);
             this.label1.TabIndex = 10;
@@ -64,7 +64,7 @@
             // dgvMalla
             // 
             this.dgvMalla.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvMalla.Location = new System.Drawing.Point(76, 199);
+            this.dgvMalla.Location = new System.Drawing.Point(64, 199);
             this.dgvMalla.Name = "dgvMalla";
             this.dgvMalla.Size = new System.Drawing.Size(344, 179);
             this.dgvMalla.TabIndex = 12;
@@ -74,7 +74,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
             this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 167);
+            this.label2.Location = new System.Drawing.Point(59, 167);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(349, 18);
             this.label2.TabIndex = 13;
@@ -85,7 +85,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
             this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(73, 397);
+            this.label3.Location = new System.Drawing.Point(61, 397);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(274, 18);
             this.label3.TabIndex = 14;
@@ -94,7 +94,7 @@
             // txtIndagar
             // 
             this.txtIndagar.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIndagar.Location = new System.Drawing.Point(74, 432);
+            this.txtIndagar.Location = new System.Drawing.Point(62, 432);
             this.txtIndagar.Multiline = true;
             this.txtIndagar.Name = "txtIndagar";
             this.txtIndagar.Size = new System.Drawing.Size(230, 29);
@@ -104,7 +104,7 @@
             // 
             this.btnIndagar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
             this.btnIndagar.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIndagar.Location = new System.Drawing.Point(310, 432);
+            this.btnIndagar.Location = new System.Drawing.Point(298, 432);
             this.btnIndagar.Name = "btnIndagar";
             this.btnIndagar.Size = new System.Drawing.Size(113, 29);
             this.btnIndagar.TabIndex = 16;
@@ -117,7 +117,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(55)))));
             this.button2.Font = new System.Drawing.Font("Tahoma", 11.7551F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(180, 656);
+            this.button2.Location = new System.Drawing.Point(177, 656);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 42);
             this.button2.TabIndex = 18;
@@ -152,7 +152,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(248)))), ((int)(((byte)(242)))));
             this.pictureBox1.Image = global::Interfaz.Properties.Resources.iphone_7697162_1280;
-            this.pictureBox1.Location = new System.Drawing.Point(-1, -3);
+            this.pictureBox1.Location = new System.Drawing.Point(-7, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(479, 838);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -184,7 +184,7 @@
             // dgvIndagar
             // 
             this.dgvIndagar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvIndagar.Location = new System.Drawing.Point(74, 475);
+            this.dgvIndagar.Location = new System.Drawing.Point(62, 475);
             this.dgvIndagar.Name = "dgvIndagar";
             this.dgvIndagar.Size = new System.Drawing.Size(346, 150);
             this.dgvIndagar.TabIndex = 37;
@@ -193,7 +193,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 826);
+            this.ClientSize = new System.Drawing.Size(465, 835);
             this.Controls.Add(this.dgvIndagar);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -207,7 +207,10 @@
             this.Controls.Add(this.dgvMalla);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Malla";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Malla";
             this.Load += new System.EventHandler(this.Malla_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMalla)).EndInit();

@@ -99,6 +99,7 @@ namespace Interfaz
 
             // Mostrar ordenado por fecha (recorrido inorden)
             arbol1.InOrden(arbol1.raiz_principal, dgvOrdenar);
+            MessageBox.Show("Ordenado por fecha correctamente"); 
         }
 
         private void button5_Click(object sender, EventArgs e)
